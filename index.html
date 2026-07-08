@@ -178,19 +178,21 @@
       <p class="hero-sub">Full-Stack · Scalable Systems · Consumer Products · Open to Relocation</p>
       <p class="hero-desc">
         Computer Science graduate (Magna Cum Laude) with a background in engineering and design.
-        I build consumer-facing applications, scalable backend systems, and reliable APIs —
+        I build consumer-facing applications, scalable backend systems, reliable APIs, and
+        AI-powered features grounded in real evidence —
         turning complex problems into clean, production-ready software.
         Available for full-time roles.
       </p>
       <div class="hero-tags">
         <span class="tag">Python</span><span class="tag">Java</span>
-        <span class="tag">JavaScript</span><span class="tag">REST APIs</span>
-        <span class="tag">SQL</span><span class="tag">AWS</span>
-        <span class="tag">Flask</span><span class="tag">Algorithms</span>
+        <span class="tag">React</span><span class="tag">TypeScript</span>
+        <span class="tag">REST APIs</span><span class="tag">SQL</span>
+        <span class="tag">AWS</span><span class="tag">Gemini API</span>
         <span class="tag">Agile / Scrum</span><span class="tag">Bilingual EN/ES</span>
       </div>
       <div class="hero-actions">
         <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="Diana_Martinez_Resume.pdf" class="btn btn-outline" target="_blank">Download Resume</a>
         <a href="#contact" class="btn btn-outline">Get In Touch</a>
       </div>
     </div>
@@ -222,13 +224,15 @@
           deliver software that is fast, maintainable, and production-ready.
         </p>
         <p>
-          I'm a native Spanish speaker and thrive in collaborative, cross-functional teams
+          I'm a member of the <strong>Apple Pathways Alliance</strong>, Apple's early-career
+          program supporting underrepresented students in tech. I'm a native Spanish speaker
+          and thrive in collaborative, cross-functional teams
           — equally comfortable presenting to stakeholders and diving deep into code.
         </p>
       </div>
       <div class="about-stats">
         <div class="stat-card"><div class="stat-num">2</div><div class="stat-label">Degrees in CS &amp; Design</div></div>
-        <div class="stat-card"><div class="stat-num">3+</div><div class="stat-num-label">Years of Project Experience</div></div>
+        <div class="stat-card"><div class="stat-num">3+</div><div class="stat-label">Years of Project Experience</div></div>
         <div class="stat-card"><div class="stat-num">2</div><div class="stat-label">Languages — EN &amp; ES</div></div>
         <div class="stat-card"><div class="stat-num">Open</div><div class="stat-label">to Relocate</div></div>
       </div>
@@ -242,6 +246,16 @@
     <div class="section-label">Capabilities</div>
     <h2 class="section-title">What I work with</h2>
     <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">🤖</div>
+        <div class="skill-cat">AI / LLM</div>
+        <div class="skill-list">
+          <span class="skill-chip">Gemini API (text + vision)</span><span class="skill-chip">Fact-Check Grounding</span>
+          <span class="skill-chip">Hallucination Mitigation</span><span class="skill-chip">Prompt Engineering</span>
+          <span class="skill-chip">AI-Assisted Development</span><span class="skill-chip">Claude</span>
+          <span class="skill-chip">GitHub Copilot</span>
+        </div>
+      </div>
       <div class="skill-card">
         <div class="skill-icon">⚙️</div>
         <div class="skill-cat">Back-End</div>
@@ -313,21 +327,22 @@
 
       <div class="project-card">
         <div class="project-tag-row">
-          <span class="project-badge badge-ai">Capstone · Full-Stack</span>
+          <span class="project-badge badge-ai">Capstone · AI</span>
         </div>
-        <div class="project-title">🔍 TrueScope</div>
+        <div class="project-title">🔍 TrueScope — AI Fact-Checking App</div>
         <p class="project-desc">
-          A consumer-facing full-stack web application built in Python/Flask with a JavaScript
-          front-end. Integrates multiple external REST APIs (HTTP/JSON) to retrieve, validate,
-          and process real-time data — applying algorithm design, modular architecture, and
-          OOP to deliver a scalable, robust product. Built across 5+ Agile sprint cycles
-          with Git-based code reviews and iterative releases.
+          Full-stack application that verifies claims in real time — as text, images, or video.
+          A FastAPI backend retrieves professional fact-checks via the Google Fact Check Tools
+          API, then Gemini (text + vision) generates grounded summaries — anchored in retrieved
+          evidence to prevent hallucination — and extracts verifiable claims from uploaded
+          images and video transcripts. Built in a 4-person Agile team across 5+ sprint cycles;
+          I led the React + TypeScript frontend, design docs, and testing.
         </p>
         <div class="project-chips">
-          <span class="chip">Python</span><span class="chip">Flask</span>
-          <span class="chip">REST APIs</span><span class="chip">JavaScript</span>
-          <span class="chip">MySQL</span><span class="chip">HTML/CSS</span>
-          <span class="chip">Git / GitHub</span><span class="chip">Agile</span>
+          <span class="chip">FastAPI</span><span class="chip">Python</span>
+          <span class="chip">Gemini API</span><span class="chip">React</span>
+          <span class="chip">TypeScript</span><span class="chip">REST APIs</span>
+          <span class="chip">Firebase</span><span class="chip">Agile</span>
         </div>
         <div class="project-links">
           <a href="https://github.com/DianaM12-2/TrueScope" class="project-link" target="_blank">GitHub →</a>
@@ -336,24 +351,66 @@
 
       <div class="project-card">
         <div class="project-tag-row">
-          <span class="project-badge badge-fullstack">Academic · Full-Stack</span>
+          <span class="project-badge badge-fullstack">Solo · Full-Stack</span>
         </div>
-        <div class="project-title">🖥️ Full-Stack Application</div>
+        <div class="project-title">💊 Pharmacy Claims Dashboard</div>
         <p class="project-desc">
-          End-to-end application with Java and Python backends — applying data structures,
-          algorithms, and clean code principles to build scalable solutions. Designed
-          relational database schemas in MySQL and SQL Server optimized for concurrent
-          access, with front-end built in HTML, CSS, and JavaScript.
-          Delivered on schedule through Agile collaboration.
+          Full-stack dashboard for real-time pharmacy claims monitoring — submit, filter,
+          and manage claims with live analytics cards and automated fraud detection that
+          flags high-value and duplicate claims. React 18 frontend and Python/Flask REST
+          backend, containerized with Docker Compose and covered by separate GitHub Actions
+          CI pipelines for each tier.
         </p>
         <div class="project-chips">
-          <span class="chip">Java</span><span class="chip">Python</span>
-          <span class="chip">MySQL</span><span class="chip">SQL Server</span>
-          <span class="chip">Schema Design</span>
-          <span class="chip">HTML/CSS/JS</span><span class="chip">Agile</span>
+          <span class="chip">React 18</span><span class="chip">Flask</span>
+          <span class="chip">Python</span><span class="chip">Docker Compose</span>
+          <span class="chip">GitHub Actions CI</span><span class="chip">Fraud Detection</span>
         </div>
         <div class="project-links">
-          <a href="https://github.com/DianaM12-2" class="project-link" target="_blank">GitHub →</a>
+          <a href="https://github.com/DianaM12-2/Pharmacy-claims" class="project-link" target="_blank">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-tag-row">
+          <span class="project-badge badge-ai">Solo · AI + API</span>
+        </div>
+        <div class="project-title">✅ FactCheck AI API</div>
+        <p class="project-desc">
+          Production-style Flask 3 REST API combining pharmacy claims management and fraud
+          detection with Gemini-powered fact-checking, including batch verification. OOP
+          architecture with dataclasses and type hints, 11 pytest unit and integration
+          tests, Docker support, and GitHub Actions CI — with a graceful demo-mode fallback
+          when no API key is configured.
+        </p>
+        <div class="project-chips">
+          <span class="chip">Flask 3</span><span class="chip">Python</span>
+          <span class="chip">Gemini API</span><span class="chip">pytest</span>
+          <span class="chip">Docker</span><span class="chip">CI/CD</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/DianaM12-2/FactCheck-AI-API" class="project-link" target="_blank">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-tag-row">
+          <span class="project-badge badge-personal">Solo · Data</span>
+        </div>
+        <div class="project-title">📊 Pharmacy Analytics Pipeline</div>
+        <p class="project-desc">
+          Data analytics pipeline for pharmacy claims — six analytical SQL queries (CTEs,
+          aggregations) surfacing fraud patterns, spending trends, and patient risk profiles,
+          with four matplotlib visualizations. Logic validated with pytest running in
+          GitHub Actions CI.
+        </p>
+        <div class="project-chips">
+          <span class="chip">Python</span><span class="chip">SQL</span>
+          <span class="chip">pandas</span><span class="chip">matplotlib</span>
+          <span class="chip">pytest</span><span class="chip">CI</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/DianaM12-2/Pharmacy-Analytics" class="project-link" target="_blank">GitHub →</a>
         </div>
       </div>
 
@@ -415,6 +472,7 @@
     </p>
     <div class="contact-links">
       <a href="mailto:dianam7319@gmail.com" class="contact-btn contact-btn-primary">Email Me</a>
+      <a href="Diana_Martinez_Resume.pdf" class="contact-btn contact-btn-outline" target="_blank">Resume</a>
       <a href="https://linkedin.com/in/diana-martinez-s" class="contact-btn contact-btn-outline" target="_blank">LinkedIn</a>
       <a href="https://github.com/DianaM12-2" class="contact-btn contact-btn-outline" target="_blank">GitHub</a>
     </div>
